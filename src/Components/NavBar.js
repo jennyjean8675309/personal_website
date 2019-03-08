@@ -5,8 +5,8 @@ class NavBar extends Component {
     return (
       <div>
         <ul>
-          <li><a href='#contact'>Contact</a></li>
-          <li><a href='#skills'>Skills</a></li>
+          <li><a href='#contact'>Where to Find Me</a></li>
+          <li><a href='#my-blog'>Blog</a></li>
           <li><a href='#portfolio'>Portfolio</a></li>
           <li><a href='#about'>About</a></li>
           <li><a href='#home'>Home</a></li>
