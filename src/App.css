@@ -156,6 +156,28 @@ a:hover {
   width: 80%;
 }
 
+.modal-header {
+  color: #101316;
+  font-family: 'American Typewriter';
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-body {
+  color: #101316;
+  font-family: 'Gill Sans';
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-footer {
+  color: #101316;
+  font-family: 'Gill Sans';
+  font-size: 25px;
+}
+
 .close {
   color: #aaa;
   float: right;
