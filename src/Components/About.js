@@ -5,11 +5,11 @@ class About extends Component {
     return (
       <div id='about'>
         <div>
-          <p class='section-heading-dark'>about me</p>
+          <p class='section-heading dark'>about me</p>
           <p class='section-subheading'>{"I'm a software developer. I like art. I like museums. I like cats."}</p>
         </div>
         <div>
-          <p class='para'>{"I love to learn about the things that a lot of us find intimidating (like rocket science or programming), because I've found that all things are understandable if they're presented in the right way. We live in a pretty fascinating world and I'm curious. I'm a life-long learner who loves to tackle interesting challenges and see what I can build."}</p>
+          <p class='para'>{"I love to learn about the things that a lot of us find intimidating (like rocket science or programming), because I've found that all things are understandable if they're presented in the right way. We live in a pretty fascinating world... and I'm curious. I'm a life-long learner who loves to tackle interesting challenges and see what I can build."}</p>
         </div>
         <div class='pic-bar'>
           <div class='item'>
