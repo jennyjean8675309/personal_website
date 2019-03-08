@@ -2,7 +2,7 @@ body {
   background-color: #ffcc33;
 }
 
-ul {
+ul#nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -14,14 +14,14 @@ ul {
   z-index: 2;
 }
 
-li {
+ul#nav > li {
   float: right;
 }
 
-a {
+a.nav-list {
   display: block;
   color: #101316;
-  font-family: 'American Typewriter';
+  font-family: 'Gill Sans';
   font-size: 25px;
   padding: 10px 30px;
   text-align: center;
@@ -102,7 +102,7 @@ a:hover {
   float: right;
 }
 
-#about {
+#about, #blog {
   overflow: auto;
   margin-top: 0;
   width: 100%;
@@ -194,4 +194,13 @@ a:hover {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+#blog-background {
+  background-color: rgb(38, 38, 38);
+  margin-top: 100px;
+}
+
+#badge {
+  margin: 100px;
 }
