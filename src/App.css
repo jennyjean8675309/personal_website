@@ -199,8 +199,29 @@ a:hover {
 #blog-background {
   background-color: rgb(38, 38, 38);
   margin-top: 100px;
+  padding: 0;
+}
+
+#contact-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
 }
 
 #badge {
-  margin: 100px;
+  margin-top: 100px;
+  display: inline-block;
+}
+
+#contact-block {
+  width: 330px;
+  height: 243px;
+  background-color: rgb(36, 38, 41);
+  display: inline-block;
+  margin-top: 100px;
+  padding: 0;
 }
