@@ -40,11 +40,32 @@ a:hover {
   position: absolute;
   z-index: 1;
   float: left;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-left: 15px;
   color: rgb(234, 229, 215);
   font-family: 'American Typewriter';
   font-size: 75px;
+  text-shadow: 2px 2px rgb(60, 65, 63);
+}
+
+#line-two {
+  margin-top: 180px;
+}
+
+#line-three {
+  margin-top: 280px;
+}
+
+#line-four {
+  margin-top: 380px;
+}
+
+#line-five {
+  margin-top: 480px;
+}
+
+#line-six {
+  margin-top: 580px;
 }
 
 .section-heading {
@@ -61,6 +82,7 @@ a:hover {
 
 .light {
   color: rgb(234, 229, 215);
+  text-shadow: 2px 2px rgb(60, 65, 63);
 }
 
 .section-subheading {
@@ -83,8 +105,6 @@ a:hover {
   display: table;
   border-collapse: collapse;
   width: 100%;
-  padding: 20px;
-  background-color: rgb(234, 229, 215);
 }
 
 .item {
@@ -100,6 +120,7 @@ a:hover {
 #selfie {
   width: 75%;
   float: right;
+  margin-top: 0;
 }
 
 #about, #blog {
@@ -113,10 +134,17 @@ a:hover {
 #button-bar {
   display: block;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 #portfolio {
   margin-bottom: 100px;
+  overflow: auto;
+}
+
+#left-heading {
+  text-align: right;
+  margin-right: 75px;
 }
 
 .square-pic {
@@ -126,23 +154,28 @@ a:hover {
 }
 
 .project-button {
-  margin-left: 450px;
+  float: right;
+  margin-right: 450px;
   background-color: rgb(234, 229, 215);
   font-family: 'Gill Sans';
-  font-size: 55px;
+  font-size: 45px;
   margin-top: 0;
-  margin-bottom: 50px;
-  padding: 35px;
+  margin-bottom: 40px;
+  padding: 20px;
   border: none;
   border-radius: 20px;
-  box-shadow: 20px 20px 10px rgb(69, 73, 72);
+  box-shadow: 20px 20px 10px rgb(60, 65, 63);
   color: rgb(69, 73, 72);
+}
+
+.project-button:hover {
+  background-color: #ffcc33;
 }
 
 .modal {
   display: none;
   position: fixed;
-  z-index: 1;
+  z-index: 3;
   left: 0;
   top: 0;
   width: 100%;
@@ -168,18 +201,54 @@ a:hover {
   padding: 0;
 }
 
-.modal-body {
-  color: #101316;
+.modal-heading {
+  margin: 0;
+  margin-left: 50px;
+  padding: 20px;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+.modal-subheading {
+  margin: 0;
+  margin-left: 50px;
+  padding: 0;
   font-family: 'Gill Sans';
   font-size: 20px;
+  color: rgb(97, 100, 98);
+}
+
+.modal-body {
+  margin-left: 50px;
+  margin: 50px;
+}
+
+.built-para {
   margin: 0;
   padding: 0;
+  font-family: 'Gill Sans';
+  font-size: 20px;
+  color: #101316;
+  margin-bottom: 25px;
+}
+
+.github-links {
+  margin: 0;
+  margin-left: 0;
+  padding: 0;
+  font-family: 'Gill Sans';
+  font-size: 20px;
+}
+
+.github-links > a {
+  color: rgb(97, 100, 98);
 }
 
 .modal-footer {
   color: #101316;
   font-family: 'Gill Sans';
   font-size: 25px;
+  margin-left: 50px;
 }
 
 .close {
@@ -212,16 +281,53 @@ a:hover {
   margin-bottom: 100px;
 }
 
+.contact-para {
+  color: rgb(234, 229, 215);
+  margin: 15px;
+  font-family: 'Gill Sans';
+  font-size: 20px;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.contact-para > a {
+  color: rgb(234, 229, 215);
+}
+
+#contact-heading {
+  color: rgb(234, 229, 215);
+  margin: 15px;
+  font-family: 'American Typewriter';
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 #badge {
   margin-top: 100px;
   display: inline-block;
 }
 
-#contact-block {
+.contact-block {
   width: 330px;
   height: 243px;
   background-color: rgb(36, 38, 41);
   display: inline-block;
   margin-top: 100px;
   padding: 0;
+  overflow: auto;
+}
+
+#github-block {
+  margin: 25px;
+  margin-bottom: 0;
+}
+
+#github-profile {
+  display: inline-block;
+  margin: 25px;
+}
+
+#username {
+  margin: 0;
 }

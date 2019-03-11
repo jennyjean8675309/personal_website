@@ -10,6 +10,7 @@ class About extends Component {
         </div>
         <div>
           <p className='para'>{"I love to learn about the things that a lot of us find intimidating (like rocket science or programming), because I've found that all things are understandable if they're presented in the right way. We live in a pretty fascinating world... and I'm curious. I'm a life-long learner who loves to tackle interesting challenges and see what I can build."}</p>
+          <p className='para'>{"I've taught art at an elementary school in Spain and I've written AP art history curriculum for high school students. I worked at a NASA visitors center where I learned all about the Saturn V (the rocket that sent Apollo astronauts to the moon) and made a giant floor piano. If there's been one theme throughout my life it's that I LOVE to create things - especially things that are fun, beautiful, help people deepen their understanding of the world, and/or enrich their lives."}</p>
         </div>
         <div className='pic-bar'>
           <div className='item'>

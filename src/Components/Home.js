@@ -4,8 +4,13 @@ class Home extends Component {
   render() {
     return (
       <div id='home'>
-        <p className='intro'>Hi. My name is Jenny. I don't like piña coladas or getting caught in the rain. I do like to build cool things and learn new stuff.</p>
-        <img alt='Jenny' id='selfie' src={require('../Images/web_pic.jpg')}></img>
+        <p className='intro'>{"Hi. I'm Jenny."}</p>
+        <p className='intro' id='line-two'>I don't like piña</p>
+        <p className='intro' id='line-three'>coladas or getting caught</p>
+        <p className='intro' id='line-four'>in the rain. I do like</p>
+        <p className='intro' id='line-five'>to build cool things</p>
+        <p className='intro' id='line-six'>and learn new stuff.</p>
+        <img alt='Jenny' id='selfie' src={require('../Images/cropped_pic.png')}></img>
       </div>
     )
   }
